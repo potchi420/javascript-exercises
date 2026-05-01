@@ -1,13 +1,12 @@
-/*
- First name: Carlos
- Last name: Stevenson
- This year: 1965
- Birth year: 1947
+var firstName = "Carlos";
+var lastName = "Stevenson";
+var thisYear = 1965;
+var birthYear = 1947;
 
- The greeting should read: "Hello! My name is Carlos Stevenson and I am 18 years old."
-*/
+var fullName = firstName + " " + lastName;
+var age = thisYear - birthYear;
 
-// Add your code right below, good luck!
+var greeting = "Hello! My name is " + fullName + " and I am " + age + " years old.";
 
 
 
